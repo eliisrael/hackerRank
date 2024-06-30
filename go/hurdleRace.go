@@ -1,8 +1,6 @@
 // https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true
 package main
 
-import "fmt"
-
 func hurdleRace(ar []int, k int) int {
 
 	// Write your code here
@@ -21,13 +19,4 @@ func hurdleRace(ar []int, k int) int {
 	}
 	return potionsAmount
 
-}
-
-func main() {
-
-	//a := []int{1, 2, 3, 4, 5, 10}
-	a := []int{2, 5, 4, 5, 2}
-	var capacity int = 7
-	var potionsAmount int = hurdleRace(a, capacity)
-	fmt.Println(potionsAmount)
 }

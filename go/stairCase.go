@@ -5,12 +5,6 @@ import (
 	"strings"
 )
 
-func main() {
-
-	var n int32 = 6
-	stairCase(n)
-}
-
 func stairCase(n int32) {
 	var i int32
 	for i = 0; i < n; i++ {

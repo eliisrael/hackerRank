@@ -1,11 +1,10 @@
 package main
 
-func main() {
+func simpleArraySum(ar []int) int {
 	// Write your code here
-	var a = []int{1, 2, 3, 4, 10, 11}
-
 	var sum int = 0
-	for _, v := range a {
+	for _, v := range ar {
 		sum += v
 	}
+	return sum
 }
